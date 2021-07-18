@@ -218,7 +218,7 @@
     color: #efefef;
   }
   .nav > .nav-links > a:hover {
-    background-color: #777777;
+    color: #777777;
   }
   .nav > #nav-check {
     display: none;
@@ -270,3 +270,20 @@
   }
 
   /* jj */
+
+  #social-container i{
+    padding: 5px 15px 5px 5px;
+    font-size: 14px;
+  }
+
+  #social-container a{
+    color: #818181;
+  }
+
+  #social-container a:hover{
+    color: #337ab7;
+  }
+
+  .address-icons{
+    padding: 5px;
+  }
