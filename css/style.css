@@ -218,7 +218,7 @@
     color: #efefef;
   }
   .nav > .nav-links > a:hover {
-    background-color: #777777;
+    color: #777777;
   }
   .nav > #nav-check {
     display: none;
