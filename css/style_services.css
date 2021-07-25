@@ -1,0 +1,30 @@
+.services-wrap img{
+    width: 100%;
+    height: 100%;
+}
+
+.services-wrap .row{
+    margin-bottom: 1em ;
+}
+
+.services-wrap h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.services-wrap a{
+    text-align: center;
+    text-decoration: none;
+}
+
+.services-desc{
+    padding-top: 70px;
+}
+
+.services-desc h4{
+    padding-left: 25px;
+}
+
+.services-wrap h3{
+    margin-bottom: 1em;
+}
