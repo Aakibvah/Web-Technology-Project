@@ -25,7 +25,7 @@
        .jumbotron {
            background-image: url("../images/header/banner-bg-03.jpg");
            color: #fff;
-           padding: 100px 25px;
+           padding: 100px 25px 60px 25px;
            font-family: Montserrat, sans-serif;
        }
        
@@ -205,13 +205,28 @@
        
        .nav {
            position: fixed;
-           height: 70px;
+           height: 90px;
            width: 100%;
            background-color: #000000;
            opacity: 0.75;
            z-index: 1000;
        }
        
+       .nav img{
+        width: 13%;
+        margin: 0.5%;
+        padding: 5px;
+       }
+
+       @media (max-width: 768px) {
+            .nav img{
+                width: 55%;
+                margin: 1%;
+                padding: 5px;
+            }
+        }
+
+
        .nav>.nav-header {
            display: inline;
        }
@@ -292,8 +307,9 @@
                width: 100%;
            }
            .nav>#nav-check:checked~.nav-links {
-               height: 100vh;
-               overflow-y: auto;
+                margin-top: 40px;
+                height: 100vh;
+                overflow-y: auto;
            }
        }
        
@@ -505,3 +521,13 @@
            color: #4d42c2;
            text-transform: uppercase;
        }
+
+        #home-banner img{
+            width: 40%;
+        }
+
+        @media (max-width: 768px) {
+            #home-banner img{
+                width: 71%;
+            }
+        }
