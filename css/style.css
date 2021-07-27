@@ -212,21 +212,20 @@
            z-index: 1000;
        }
        
-       .nav img{
-        width: 13%;
-        margin: 0.5%;
-        padding: 5px;
+       .nav img {
+           width: 13%;
+           margin: 0.5%;
+           padding: 5px;
        }
-
+       
        @media (max-width: 768px) {
-            .nav img{
-                width: 55%;
-                margin: 1%;
-                padding: 5px;
-            }
-        }
-
-
+           .nav img {
+               width: 55%;
+               margin: 1%;
+               padding: 5px;
+           }
+       }
+       
        .nav>.nav-header {
            display: inline;
        }
@@ -307,9 +306,9 @@
                width: 100%;
            }
            .nav>#nav-check:checked~.nav-links {
-                margin-top: 40px;
-                height: 100vh;
-                overflow-y: auto;
+               margin-top: 40px;
+               height: 100vh;
+               overflow-y: auto;
            }
        }
        
@@ -486,7 +485,6 @@
        }
        
        .together {
-           opacity: 0.6;
            font-size: 20px;
            font-weight: 500;
            font-stretch: normal;
@@ -494,6 +492,12 @@
            line-height: 1.8;
            letter-spacing: 0.94px;
            color: #000000;
+           margin-top: 20px;
+       }
+       
+       .JourneyImg {
+           width: 64px;
+           height: 64px;
        }
        
        .workBIT-Title {
@@ -521,13 +525,13 @@
            color: #4d42c2;
            text-transform: uppercase;
        }
-
-        #home-banner img{
-            width: 40%;
-        }
-
-        @media (max-width: 768px) {
-            #home-banner img{
-                width: 71%;
-            }
-        }
+       
+       #home-banner img {
+           width: 40%;
+       }
+       
+       @media (max-width: 768px) {
+           #home-banner img {
+               width: 71%;
+           }
+       }
