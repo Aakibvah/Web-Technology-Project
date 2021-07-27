@@ -531,3 +531,22 @@
                 width: 71%;
             }
         }
+
+.main-wrap{
+    padding-top: 10%;
+}
+
+@media (max-width: 768px) {
+    .main-wrap{
+        padding-top: 25%;
+    }
+}
+
+:checked+.services-desc {
+  display: block;
+}
+
+
+.plus-expand:active{
+    transform:rotate(180deg);
+}
