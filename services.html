@@ -1,293 +1,304 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Services</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
-  <link rel="stylesheet" href="css/bootstrap.css"/>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
-  <link rel="stylesheet" href="css/style.css"/>
-   <link rel="stylesheet" href="css/style_services.css"/>
-  <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">-->
-  <!-- <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">  -->
-  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
-  <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+    <title>Services</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style_services.css" />
+    <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">-->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">  -->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
 
 </head>
+
 <body id="myPage">
     <!-- header starts -->
     <header>
-      <nav class="nav navbar">
-          <input type="checkbox" id="nav-check">
-          <a href="index.html"><img src="images/logo.png"/></a>
-              
-          <div class="nav-001">
-              <label for="nav-check">
+        <nav class="nav navbar">
+            <input type="checkbox" id="nav-check">
+            <div class="nav-header">
+                <div class="nav-title">
+                    <a href="index.html"><img src="images/logo.png" /></a>
+                </div>
+            </div>
+            <div class="nav-001">
+                <label for="nav-check">
               <span></span>
               <span></span>
               <span></span>
               </label>
-          </div>
-          <div class="nav-links"> 
-            <a href="index.html" id="Home"><span class="glyphicon glyphicon-home"></span></a>
-            <a href="services.html">Services</a>
-            <a href="careers.html">Careers</a>
-            <a href="#contact">Contact Us</a>
-            <a href="aboutus.html">About Us</a>
-          </div>
-      </nav>
-  </header>
-  <!-- header end -->
+            </div>
+            <div class="nav-links">
+                <a href="index.html" id="Home"><span class="glyphicon glyphicon-home"></span></a>
+                <a href="services.html">Services</a>
+                <a href="careers.html">Careers</a>
+                <a href="#contact">Contact Us</a>
+                <a href="aboutus.html">About Us</a>
+            </div>
+        </nav>
+    </header>
+    <!-- header end -->
 
-<!-- <div class="jumbotron text-center">
+    <!-- <div class="jumbotron text-center">
   <img src="images/logo.png"/>
   <p>We are a software product and services company.</p> 
 </div> -->
 
-<!-- services listing and description -->
-<main class="main-wrap">
-  <div class="container services-wrap">
-    <h2>Our Services</h2>
-    <div class="row">
-      <div class="col-md-4">
-        <img src = "images/services/1.webp"/>
-        <label for="collapse_checkbox1">Managed IT Services<a class="plus-expand"></a></label>
-      </div>
-      <div class="col-md-4">
-        <img src = "images/services/2.webp"/>
-        <label for="collapse_checkbox2">IT Procurement<span class="plus-expand">+</span></label>
-      </div>
-      <div class="col-md-4">
-        <img src = "images/services/3.webp"/>
-        <label for="collapse_checkbox3">Data Center Services<span class="plus-expand">+</span></label>
-      </div>
+    <!-- services listing and description -->
+    <main class="main-wrap">
+        <div class="container services-wrap">
+            <h2>Our Services</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/services/1.webp" />
+                    <label for="collapse_checkbox1">Managed IT Services<a class="plus-expand"></a></label>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/services/2.webp" />
+                    <label for="collapse_checkbox2">IT Procurement<span class="plus-expand">+</span></label>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/services/3.webp" />
+                    <label for="collapse_checkbox3">Data Center Services<span class="plus-expand">+</span></label>
+                </div>
+            </div>
+
+            <input type="checkbox" id="collapse_checkbox1" style="display:none;">
+            <div id="managedIT" class="services-desc">
+                <h3>Managed IT Services</h3>
+                <p>Leave the IT service management up to our professionals to save on costs, get support you can trust and free up your time to focus on other work projects. The benefits of BitTech IT service management include:</p>
+                <ul>
+                    <li>Improved reliability and security</li>
+                    <li>Clear visibility of your current technology</li>
+                    <li>Reduced IT operational costs</li>
+                    <li>A predictable cost model for a fully supported IT environment</li>
+                    <li>Access to a wide range of specialized engineers for a fixed monthly cost</li>
+                    <li>Proactive and reactive IT Support that prevents downtime</li>
+                </ul>
+            </div>
+
+            <input type="checkbox" id="collapse_checkbox2" style="display:none;">
+            <div id="ITProc" class="services-desc">
+                <h3>IT Procurement</h3>
+                <p>When it comes to IT hardware, BitTech is truly your one-stop-shop. We have agreements with leading IT manufacturers to provide best-of-breed solutions unique to each customer’s needs and budget requirements. </p>
+                <p>In addition to providing your computer hardware, we can configure, install and support everything we sell. This way, you get all the equipment and IT support services you need from one trustworthy source.</p>
+            </div>
+
+            <input type="checkbox" id="collapse_checkbox3" style="display:none;">
+            <div id="DataSer" class="services-desc">
+                <h3>Data Center Services</h3>
+                <p>The data center is the engine that powers daily operations. It can create promising opportunities for success, or it can leave you open to failure. At BitTech, we help you design and build a world-class physical data center infrastructure
+                    from the ground up, maintain what you have, or transform your existing data center infrastructure. We help you get on the fast-track toward your data center transformation and optimization goals.</p>
+                <b>Data Center Services include:</b>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h4>Servers</h4>
+                        <ul>
+                            <li>Utilization and performance assessments</li>
+                            <li>Consolidation and virtualization</li>
+                            <li>Blade server implementation</li>
+                            <li>Storage integration</li>
+                            <li>Virtual desktop infrastructures</li>
+                            <li>Multi-threat security solutions</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Applications</h4>
+                        <ul>
+                            <li>Enterprise-wide deployment and testing</li>
+                            <li>Visibility and management assessments</li>
+                            <li>Application acceleration and load balancing</li>
+                            <li>Platform migration and virtualization</li>
+                            <li>Public, private, and hybrid cloud solutions</li>
+                            <li>Performance auditing and tuning</li>
+                            <li>Secure client authentication</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Facilities</h4>
+                        <ul>
+                            <li>Power and cooling solutions</li>
+                            <li>Cable plants and premises wiring</li>
+                            <li>Site security and physical access control</li>
+                            <li>Fire detection and suppression systems</li>
+                            <li>Physical data center moves</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <h4>Converged/Hyper-Converged</h4>
+                        <ul>
+                            <li>Infrastructure as a Service (IaaS): Utility type resources, such as: virtual machines, networking, and storage capacity.</li>
+                            <li>Platform as a Service (PaaS): Facilitate development environments using pooled and scalable resources.</li>
+                            <li>Software as a Service (SaaS): Deliver applications from third-party software providers over the internet.</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Virtualization</h4>
+                        <ul>
+                            <li>Enterprise-wide deployment and testing</li>
+                            <li>Visibility and management assessments</li>
+                            <li>Application acceleration and load balancing</li>
+                            <li>Platform migration and virtualization</li>
+                            <li>Public, private, and hybrid cloud solutions</li>
+                            <li>Performance auditing and tuning</li>
+                            <li>Secure client authentication</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Data Storage </h4>
+                        <ul>
+                            <li>Power and cooling solutions</li>
+                            <li>Cable plants and premises wiring</li>
+                            <li>Site security and physical access control</li>
+                            <li>Fire detection and suppression systems</li>
+                            <li>Physical data center moves</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/services/4.webp" />
+                    <label for="collapse_checkbox4">Voice and Video Collaboration<span class="plus-expand">+</span></label>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/services/5.webp" />
+                    <label for="collapse_checkbox5">Wireless/ Mobilit<span class="plus-expand">+</span></label>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/services/6.webp" />
+                    <label for="collapse_checkbox6">Data Securit<span class="plus-expand">+</span></label>
+                </div>
+            </div>
+
+            <input type="checkbox" id="collapse_checkbox4" style="display:none;">
+            <div id="videoCol" class="services-desc">
+                <h3>Voice and Video Collaboration</h3>
+                <p>BitTech’s collaboration practice provides an integrated communications strategy and architecture that enables secure voice, video and data connectivity across a unified and intelligent network. We enable your employees and clients to collaborate
+                    intuitively anywhere, on any device from the browser to the boardroom.</p>
+                <p>Our IT services specific to voice and video include:</p>
+                <ul>
+                    <li>On-premise, hybrid and cloud-based voice infrastructure</li>
+                    <li>Next-generation classrooms</li>
+                    <li>Room-based and immersive systems</li>
+                    <li>Multiparty audio and video conferencing</li>
+                    <li>3rd party video systems integration</li>
+                    <li>All leading conferencing solutions</li>
+                </ul>
+            </div>
+
+            <input type="checkbox" id="collapse_checkbox5" style="display:none;">
+            <div id="Wireless" class="services-desc">
+                <h3>Wireless/Mobility</h3>
+                <p>A mobile-first approach will help your employees be happier and more productive. Centered around the individual rather than the workplace, BitTech’s mobility and wireless solutions will help your business operate more efficiently.</p>
+                <ul>
+                    <li>Wireless LAN/WAN</li>
+                    <li>Location-based services</li>
+                    <li>Wireless mesh</li>
+                    <li>Mobile device management</li>
+                    <li>Security solutions for BYOD (Bring Your Own Device)</li>
+                </ul>
+            </div>
+
+            <input type="checkbox" id="collapse_checkbox6" style="display:none;">
+            <div id="security" class="services-desc">
+                <h3>Data Security</h3>
+                <p>Organizations today are increasingly vulnerable to cybersecurity threats. Attackers are more adept at breaching the traditional data security infrastructure. BitTech can help design, implement and manage the correct security policy (unique
+                    to your business) to protect you and your clients’ critical data. Get a greater peace of mind knowing your business is safe and secure.</p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4>Infrastructure Security Management</h4>
+                        <ul>
+                            <li>Advanced malware protection (including Ransomware )</li>
+                            <li>Web security</li>
+                            <li>Email security (including Phishing and SPAM)</li>
+                            <li>Endpoint security clients</li>
+                            <li>Access control and policies</li>
+                            <li>Firewalls</li>
+                            <li>VPN</li>
+                            <li>Network security</li>
+                            <li>Next generation IPS (Intrusion Prevention System)</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Infrastructure Security Evaluation</h4>
+                        <ul>
+                            <li>Security assessments</li>
+                            <li>Vulnerability assessment</li>
+                            <li>Penetration testing</li>
+                            <li>Security incident response</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+
+    <div id="contact" class="container-fluid bg-grey contact-form">
+        <div class="">
+            <h2 class="text-center">CONTACT US</h2>
+        </div>
+        <h3>Drop Us a Message</h3>
+        <div class="row">
+            <div class="col-sm-5">
+                <div>
+                    <p>Contact us and we'll get back to you within 24 hours.</p>
+                    <p><span class="glyphicon glyphicon-map-marker address-icons"></span> Ontario, CA</p>
+                    <p><span class="glyphicon glyphicon-phone address-icons"></span> +00 1515151515</p>
+                    <p><span class="glyphicon glyphicon-envelope address-icons"></span>customercare@abctech.com</p>
+                </div>
+                <p>Follow us on Social Media</p>
+                <div id="social-container">
+                    <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+                    <a href="https://ca.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <form method="post">
+                    <div class="form-group">
+                        <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                    </div>
+                    <div class="form-group">
+                        <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input class="btn btn-info" type="button" name="btnSubmit" class="btnContact" value="Send Message" />
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
 
-    <input type="checkbox" id="collapse_checkbox1" style="display:none;">
-    <div id="managedIT" class="services-desc">
-      <h3>Managed IT Services</h3>
-      <p>Leave the IT service management up to our professionals to save on costs, get support you can trust and free up your time to focus on other work projects. The benefits of BitTech IT service management include:</p>
-      <ul>
-        <li>Improved reliability and security</li>
-        <li>Clear visibility of your current technology</li>
-        <li>Reduced IT operational costs</li>
-        <li>A predictable cost model for a fully supported IT environment</li>
-        <li>Access to a wide range of specialized engineers for a fixed monthly cost</li>
-        <li>Proactive and reactive IT Support that prevents downtime</li>
-      </ul>
-    </div>
 
-    <input type="checkbox" id="collapse_checkbox2" style="display:none;">
-    <div id="ITProc" class="services-desc">
-      <h3>IT Procurement</h3>
-      <p>When it comes to IT hardware, BitTech is truly your one-stop-shop. We have agreements with leading IT manufacturers to provide best-of-breed solutions unique to each customer’s needs and budget requirements. </p>
-      <p>In addition to providing your computer hardware, we can configure, install and support everything we sell. This way, you get all the equipment and IT support services you need from one trustworthy source.</p>
-    </div>
-
-    <input type="checkbox" id="collapse_checkbox3" style="display:none;">
-    <div id="DataSer" class="services-desc">
-      <h3>Data Center Services</h3>
-      <p>The data center is the engine that powers daily operations. It can create promising opportunities for success, or it can leave you open to failure. At BitTech, we help you design and build a world-class physical data center infrastructure from the ground up, maintain what you have, or transform your existing data center infrastructure. We help you get on the fast-track toward your data center transformation and optimization goals.</p>
-      <b>Data Center Services include:</b>
-      <div class="row">
-        <div class="col-md-4">
-          <h4>Servers</h4>
-          <ul>
-            <li>Utilization and performance assessments</li>
-            <li>Consolidation and virtualization</li>
-            <li>Blade server implementation</li>
-            <li>Storage integration</li>
-            <li>Virtual desktop infrastructures</li>
-            <li>Multi-threat security solutions</li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <h4>Applications</h4>
-          <ul>
-              <li>Enterprise-wide deployment and testing</li>
-              <li>Visibility and management assessments</li>
-              <li>Application acceleration and load balancing</li>
-              <li>Platform migration and virtualization</li>
-              <li>Public, private, and hybrid cloud solutions</li>
-              <li>Performance auditing and tuning</li>
-              <li>Secure client authentication</li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <h4>Facilities</h4>
-          <ul>
-            <li>Power and cooling solutions</li>
-            <li>Cable plants and premises wiring</li>
-            <li>Site security and physical access control</li>
-            <li>Fire detection and suppression systems</li>
-            <li>Physical data center moves</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-4">
-          <h4>Converged/Hyper-Converged</h4>
-          <ul>
-            <li>Infrastructure as a Service (IaaS): Utility type resources, such as: virtual machines, networking, and storage capacity.</li>
-            <li>Platform as a Service (PaaS): Facilitate development environments using pooled and scalable resources.</li>
-            <li>Software as a Service (SaaS): Deliver applications from third-party software providers over the internet.</li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <h4>Virtualization</h4>
-          <ul>
-            <li>Enterprise-wide deployment and testing</li>
-            <li>Visibility and management assessments</li>
-            <li>Application acceleration and load balancing</li>
-            <li>Platform migration and virtualization</li>
-            <li>Public, private, and hybrid cloud solutions</li>
-            <li>Performance auditing and tuning</li>
-            <li>Secure client authentication</li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <h4>Data Storage </h4>
-          <ul>
-            <li>Power and cooling solutions</li>
-            <li>Cable plants and premises wiring</li>
-            <li>Site security and physical access control</li>
-            <li>Fire detection and suppression systems</li>
-            <li>Physical data center moves</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="row">
-      <div class="col-md-4">
-        <img src = "images/services/4.webp"/>
-        <label for="collapse_checkbox4">Voice and Video Collaboration<span class="plus-expand">+</span></label>
-      </div>
-      <div class="col-md-4">
-        <img src = "images/services/5.webp"/>
-        <label for="collapse_checkbox5">Wireless/ Mobilit<span class="plus-expand">+</span></label>
-      </div>
-      <div class="col-md-4">
-        <img src = "images/services/6.webp"/>
-        <label for="collapse_checkbox6">Data Securit<span class="plus-expand">+</span></label>
-      </div>
-    </div>
-
-    <input type="checkbox" id="collapse_checkbox4" style="display:none;">
-    <div id="videoCol" class="services-desc">
-      <h3>Voice and Video Collaboration</h3>
-      <p>BitTech’s collaboration practice provides an integrated communications strategy and architecture that enables secure voice, video and data connectivity across a unified and intelligent network. We enable your employees and clients to collaborate intuitively anywhere, on any device from the browser to the boardroom.</p>
-      <p>Our IT services specific to voice and video include:</p>
-      <ul>
-        <li>On-premise, hybrid and cloud-based voice infrastructure</li>
-        <li>Next-generation classrooms</li>
-        <li>Room-based and immersive systems</li>
-        <li>Multiparty audio and video conferencing</li>
-        <li>3rd party video systems integration</li>
-        <li>All leading conferencing solutions</li>
-      </ul>
-    </div>
-
-    <input type="checkbox" id="collapse_checkbox5" style="display:none;">
-    <div id="Wireless" class="services-desc">
-      <h3>Wireless/Mobility</h3>
-      <p>A mobile-first approach will help your employees be happier and more productive. Centered around the individual rather than the workplace, BitTech’s mobility and wireless solutions will help your business operate more efficiently.</p>
-      <ul>
-        <li>Wireless LAN/WAN</li>
-        <li>Location-based services</li>
-        <li>Wireless mesh</li>
-        <li>Mobile device management</li>
-        <li>Security solutions for BYOD (Bring Your Own Device)</li>
-      </ul>
-    </div>
-
-    <input type="checkbox" id="collapse_checkbox6" style="display:none;">
-    <div id="security" class="services-desc">
-      <h3>Data Security</h3>
-      <p>Organizations today are increasingly vulnerable to cybersecurity threats. Attackers are more adept at breaching the traditional data security infrastructure. BitTech can help design, implement and manage the correct security policy (unique to your business) to protect you and your clients’ critical data. Get a greater peace of mind knowing your business is safe and secure.</p>
-      <div class="row">
-        <div class="col-md-6">
-          <h4>Infrastructure Security Management</h4>
-          <ul>
-            <li>Advanced malware protection (including Ransomware )</li>
-            <li>Web security</li>
-            <li>Email security (including Phishing and SPAM)</li>
-            <li>Endpoint security clients</li>
-            <li>Access control and policies</li>
-            <li>Firewalls</li>
-            <li>VPN</li>
-            <li>Network security</li>
-            <li>Next generation IPS (Intrusion Prevention System)</li>
-          </ul>
-        </div>
-        <div class="col-md-6">
-          <h4>Infrastructure Security Evaluation</h4>
-          <ul>
-            <li>Security assessments</li>
-            <li>Vulnerability assessment</li>
-            <li>Penetration testing</li>
-            <li>Security incident response</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</main>
-
-
-<div id="contact" class="container-fluid bg-grey contact-form">
-  <div class="">
-    <h2 class="text-center">CONTACT US</h2>
-  </div>
-  <h3>Drop Us a Message</h3>
-  <div class="row">
-    <div class="col-sm-5">
-      <div>
-        <p>Contact us and we'll get back to you within 24 hours.</p>
-        <p><span class="glyphicon glyphicon-map-marker address-icons"></span> Ontario, CA</p>
-        <p><span class="glyphicon glyphicon-phone address-icons"></span> +00 1515151515</p>
-        <p><span class="glyphicon glyphicon-envelope address-icons"></span>customercare@abctech.com</p>
-      </div>
-      <p>Follow us on Social Media</p>
-      <div id="social-container">
-        <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
-         <a href="https://ca.linkedin.com/"><i class="fa fa-linkedin"></i></a>
-         <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
-      </div>     
-    </div>  
-    <div class="col-md-6">
-      <form method="post">
-        <div class="form-group">
-          <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
-        </div>
-        <div class="form-group">
-          <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
-        </div>
-        <div class="form-group">
-          <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
-        </div>
-        <div class="form-group">
-          <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
-        </div>
-        <div class="form-group">
-          <input  class ="btn btn-info" type="button" name="btnSubmit" class="btnContact" value="Send Message" />
-        </div>
-      </form>
-    </div>
-  </div>
-</div>
-
-
-<footer class="container-fluid text-center">
-  <a href="#myPage" title="To Top">
-    <span class="glyphicon glyphicon-chevron-up"></span>
-  </a>
-  <p>© ABC Technologies Pvt Ltd. All Rights Reserved | Privacy Policy <a href="#" title="company"></a></p>
-</footer>
+    <footer class="container-fluid text-center">
+        <a href="#myPage" title="To Top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <p>© ABC Technologies Pvt Ltd. All Rights Reserved | Privacy Policy
+            <a href="#" title="company"></a>
+        </p>
+    </footer>
 
 </body>
+
 </html>

@@ -84,66 +84,6 @@
        .item span {
            font-style: normal;
        }
-       /* .panel {
-    border: 1px solid #f4511e; 
-    border-radius:0 !important;
-    transition: box-shadow 0.5s;
-  }
-  .panel:hover {
-    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
-  }
-  .panel-footer .btn:hover {
-    border: 1px solid #f4511e;
-    background-color: #fff !important;
-    color: #f4511e;
-  }
-  .panel-heading {
-    color: #fff !important;
-    background-color: #f4511e !important;
-    padding: 25px;
-    border-bottom: 1px solid transparent;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-  }
-  .panel-footer {
-    background-color: white !important;
-  }
-  .panel-footer h3 {
-    font-size: 32px;
-  }
-  .panel-footer h4 {
-    color: #aaa;
-    font-size: 14px;
-  }
-  .panel-footer .btn {
-    margin: 15px 0;
-    background-color: #f4511e;
-    color: #fff;
-  } */
-       /* .navbar {
-    margin-bottom: 0;
-    background-color: #f4511e;
-    z-index: 9999;
-    border: 0;
-    font-size: 12px !important;
-    line-height: 1.42857143 !important;
-    letter-spacing: 4px;
-    border-radius: 0;
-    font-family: Montserrat, sans-serif;
-  }
-  .navbar li a, .navbar .navbar-brand {
-    color: #fff !important;
-  }
-  .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #f4511e !important;
-    background-color: #fff !important;
-  }
-  .navbar-default .navbar-toggle {
-    border-color: transparent;
-    color: #fff !important;
-  } */
        
        footer .glyphicon {
            font-size: 20px;
@@ -205,28 +145,17 @@
        
        .nav {
            position: fixed;
-           height: 90px;
+           height: 78px;
            width: 100%;
            background-color: #000000;
            opacity: 0.75;
            z-index: 1000;
        }
        
-       .nav img{
-        width: 13%;
-        margin: 0.5%;
-        padding: 5px;
+       .nav img {
+           width: 170px;
        }
-
-       @media (max-width: 768px) {
-            .nav img{
-                width: 55%;
-                margin: 1%;
-                padding: 5px;
-            }
-        }
-
-
+       
        .nav>.nav-header {
            display: inline;
        }
@@ -239,7 +168,7 @@
            display: inline-block;
            font-size: 22px;
            color: #fff;
-           padding: 14px 10px 10px 10px;
+           padding: 7px 10px 10px 10px;
            margin-left: 30px;
        }
        
@@ -284,7 +213,7 @@
                display: inline-block;
                width: 50px;
                height: 50px;
-               padding: 13px;
+               padding: 18px;
            }
            .nav>.nav-001>label>span {
                display: block;
@@ -299,7 +228,6 @@
                background-color: #333;
                height: 0px;
                overflow-y: hidden;
-               top: 50px;
                left: 0px;
            }
            .nav>.nav-links>a {
@@ -307,9 +235,8 @@
                width: 100%;
            }
            .nav>#nav-check:checked~.nav-links {
-                margin-top: 40px;
-                height: 100vh;
-                overflow-y: auto;
+               height: 100vh;
+               overflow-y: auto;
            }
        }
        
@@ -366,7 +293,7 @@
        }
        
        section {
-           padding: 60px 0;
+           padding: 84px 0;
        }
        
        section .section-title {
@@ -521,32 +448,31 @@
            color: #4d42c2;
            text-transform: uppercase;
        }
-
-        #home-banner img{
-            width: 40%;
-        }
-
-        @media (max-width: 768px) {
-            #home-banner img{
-                width: 71%;
-            }
-        }
-
-.main-wrap{
-    padding-top: 10%;
-}
-
-@media (max-width: 768px) {
-    .main-wrap{
-        padding-top: 25%;
-    }
-}
-
-:checked+.services-desc {
-  display: block;
-}
-
-
-.plus-expand:active{
-    transform:rotate(180deg);
-}
+       
+       #home-banner img {
+           width: 40%;
+       }
+       
+       @media (max-width: 768px) {
+           #home-banner img {
+               width: 71%;
+           }
+       }
+       
+       .main-wrap {
+           padding-top: 10%;
+       }
+       
+       @media (max-width: 768px) {
+           .main-wrap {
+               padding-top: 25%;
+           }
+       }
+       
+        :checked+.services-desc {
+           display: block;
+       }
+       
+       .plus-expand:active {
+           transform: rotate(180deg);
+       }
