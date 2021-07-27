@@ -46,54 +46,28 @@
 </div> -->
 
 <!-- services listing and description -->
-<main id="services-main-wrap">
+<main class="main-wrap">
   <div class="container services-wrap">
     <h2>Our Services</h2>
     <div class="row">
       <div class="col-md-4">
-        <a class="anchor" href="#managedIT">
-          <img src = "images/services/1.webp"/>
-          <p>Managed IT Services</p>
-        </a>
+        <img src = "images/services/1.webp"/>
+        <label for="collapse_checkbox1">Managed IT Services<a class="plus-expand"></a></label>
       </div>
       <div class="col-md-4">
-        <a class="anchor" href="#ITProc">
-          <img src = "images/services/2.webp"/>
-          <p>IT Procurement</p>
-        </a>
+        <img src = "images/services/2.webp"/>
+        <label for="collapse_checkbox2">IT Procurement<span class="plus-expand">+</span></label>
       </div>
       <div class="col-md-4">
-         <a class="anchor" href="#DataSer">
-          <img src = "images/services/3.webp"/>
-          <p>Data Center Services</p>
-        </a>
+        <img src = "images/services/3.webp"/>
+        <label for="collapse_checkbox3">Data Center Services<span class="plus-expand">+</span></label>
       </div>
     </div>
 
-    <div class="row">
-      <div class="col-md-4">
-         <a class="anchor" href="#videoCol">
-          <img src = "images/services/4.webp"/>
-          <p>Voice and Video Collaboration</p>
-        </a>
-      </div>
-      <div class="col-md-4">
-        <a class="anchor" href="#Wireless">
-          <img src = "images/services/5.webp"/>
-          <p>Wireless/ Mobility</p>
-        </a>
-      </div>
-      <div class="col-md-4">
-         <a class="anchor" href="#security">
-          <img src = "images/services/6.webp"/>
-          <p>Data Security</p>
-        </a>
-      </div>
-    </div>
-
-    <div id="managedIT"class="services-desc">
+    <input type="checkbox" id="collapse_checkbox1" style="display:none;">
+    <div id="managedIT" class="services-desc">
       <h3>Managed IT Services</h3>
-      <p>Leave the IT service management up to our professionals to save on costs, get support you can trust and free up your time to focus on other work projects. The benefits of Xerox IT service management include:</p>
+      <p>Leave the IT service management up to our professionals to save on costs, get support you can trust and free up your time to focus on other work projects. The benefits of BitTech IT service management include:</p>
       <ul>
         <li>Improved reliability and security</li>
         <li>Clear visibility of your current technology</li>
@@ -104,15 +78,17 @@
       </ul>
     </div>
 
+    <input type="checkbox" id="collapse_checkbox2" style="display:none;">
     <div id="ITProc" class="services-desc">
       <h3>IT Procurement</h3>
-      <p>When it comes to IT hardware, Xerox is truly your one-stop-shop. We have agreements with leading IT manufacturers to provide best-of-breed solutions unique to each customer’s needs and budget requirements. </p>
+      <p>When it comes to IT hardware, BitTech is truly your one-stop-shop. We have agreements with leading IT manufacturers to provide best-of-breed solutions unique to each customer’s needs and budget requirements. </p>
       <p>In addition to providing your computer hardware, we can configure, install and support everything we sell. This way, you get all the equipment and IT support services you need from one trustworthy source.</p>
     </div>
 
+    <input type="checkbox" id="collapse_checkbox3" style="display:none;">
     <div id="DataSer" class="services-desc">
       <h3>Data Center Services</h3>
-      <p>The data center is the engine that powers daily operations. It can create promising opportunities for success, or it can leave you open to failure. At Xerox, we help you design and build a world-class physical data center infrastructure from the ground up, maintain what you have, or transform your existing data center infrastructure. We help you get on the fast-track toward your data center transformation and optimization goals.</p>
+      <p>The data center is the engine that powers daily operations. It can create promising opportunities for success, or it can leave you open to failure. At BitTech, we help you design and build a world-class physical data center infrastructure from the ground up, maintain what you have, or transform your existing data center infrastructure. We help you get on the fast-track toward your data center transformation and optimization goals.</p>
       <b>Data Center Services include:</b>
       <div class="row">
         <div class="col-md-4">
@@ -184,9 +160,26 @@
       </div>
     </div>
 
+
+    <div class="row">
+      <div class="col-md-4">
+        <img src = "images/services/4.webp"/>
+        <label for="collapse_checkbox4">Voice and Video Collaboration<span class="plus-expand">+</span></label>
+      </div>
+      <div class="col-md-4">
+        <img src = "images/services/5.webp"/>
+        <label for="collapse_checkbox5">Wireless/ Mobilit<span class="plus-expand">+</span></label>
+      </div>
+      <div class="col-md-4">
+        <img src = "images/services/6.webp"/>
+        <label for="collapse_checkbox6">Data Securit<span class="plus-expand">+</span></label>
+      </div>
+    </div>
+
+    <input type="checkbox" id="collapse_checkbox4" style="display:none;">
     <div id="videoCol" class="services-desc">
       <h3>Voice and Video Collaboration</h3>
-      <p>Xerox’s collaboration practice provides an integrated communications strategy and architecture that enables secure voice, video and data connectivity across a unified and intelligent network. We enable your employees and clients to collaborate intuitively anywhere, on any device from the browser to the boardroom.</p>
+      <p>BitTech’s collaboration practice provides an integrated communications strategy and architecture that enables secure voice, video and data connectivity across a unified and intelligent network. We enable your employees and clients to collaborate intuitively anywhere, on any device from the browser to the boardroom.</p>
       <p>Our IT services specific to voice and video include:</p>
       <ul>
         <li>On-premise, hybrid and cloud-based voice infrastructure</li>
@@ -198,9 +191,10 @@
       </ul>
     </div>
 
+    <input type="checkbox" id="collapse_checkbox5" style="display:none;">
     <div id="Wireless" class="services-desc">
       <h3>Wireless/Mobility</h3>
-      <p>A mobile-first approach will help your employees be happier and more productive. Centered around the individual rather than the workplace, Xerox’s mobility and wireless solutions will help your business operate more efficiently.</p>
+      <p>A mobile-first approach will help your employees be happier and more productive. Centered around the individual rather than the workplace, BitTech’s mobility and wireless solutions will help your business operate more efficiently.</p>
       <ul>
         <li>Wireless LAN/WAN</li>
         <li>Location-based services</li>
@@ -210,9 +204,10 @@
       </ul>
     </div>
 
+    <input type="checkbox" id="collapse_checkbox6" style="display:none;">
     <div id="security" class="services-desc">
       <h3>Data Security</h3>
-      <p>Organizations today are increasingly vulnerable to cybersecurity threats. Attackers are more adept at breaching the traditional data security infrastructure. Xerox can help design, implement and manage the correct security policy (unique to your business) to protect you and your clients’ critical data. Get a greater peace of mind knowing your business is safe and secure.</p>
+      <p>Organizations today are increasingly vulnerable to cybersecurity threats. Attackers are more adept at breaching the traditional data security infrastructure. BitTech can help design, implement and manage the correct security policy (unique to your business) to protect you and your clients’ critical data. Get a greater peace of mind knowing your business is safe and secure.</p>
       <div class="row">
         <div class="col-md-6">
           <h4>Infrastructure Security Management</h4>
