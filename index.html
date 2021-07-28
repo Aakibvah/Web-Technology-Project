@@ -5,24 +5,19 @@
     <title>Company</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css" />
-    <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">-->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">  -->
-    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
-    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
 </head>
 
 <body id="myPage">
     <!-- header starts -->
     <header>
-        <nav class="nav navbar">
+        <nav class="nav">
             <input type="checkbox" id="nav-check">
             <div class="nav-header">
                 <div class="nav-title">
-                    <a href="index.html"><img src="images/logo.png" /></a>
+                    <a href="index.html"><img src="images/logo.png" alt="company logo" /></a>
                 </div>
             </div>
             <div class="nav-001">
@@ -44,9 +39,7 @@
     <!-- header end -->
 
     <div class="jumbotron text-center" id="home-banner">
-        <!--  <h1>ABC Company</h1> 
-  <p>We are a software product and services company.</p>  -->
-        <img src="images/logo.png" />
+        <img src="images/logo.png" alt="companylogo" />
     </div>
 
     <!-- Container (About Section) -->
@@ -60,7 +53,7 @@
                     exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
             <div class="col-sm-4">
-                <img src="./images/banner-img-02.svg">
+                <img src="./images/banner-img-02.svg" alt="banner image">
             </div>
         </div>
     </div>
@@ -213,9 +206,14 @@
             <div class="col-sm-5">
                 <div>
                     <p>Contact us and we'll get back to you within 24 hours.</p>
-                    <p><span class="glyphicon glyphicon-map-marker address-icons"></span> Ontario, CA</p>
-                    <p><span class="glyphicon glyphicon-phone address-icons"></span> +00 1515151515</p>
-                    <p><span class="glyphicon glyphicon-envelope address-icons"></span>customercare@abctech.com</p>
+                    <p><span class="glyphicon glyphicon-map-marker address-icons"></span> Bit Tower, Wellington St, Old Toronto, Ontario, CA</p>
+                    <p><span class="glyphicon glyphicon-phone address-icons"></span>+1 (437) 961-8097</p>
+                    <p><span class="glyphicon glyphicon-envelope address-icons"></span>contact@bittech.com</p>
+                </div>
+                <div>
+                    <div>
+                        <iframe class="mapFrame" src="https://www.google.com/maps/embed/v1/place?q=Financial+District,+Toronto,+ON,+Canada&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                    </div>
                 </div>
                 <p>Follow us on Social Media</p>
                 <div id="social-container">
@@ -239,7 +237,7 @@
                         <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
                     </div>
                     <div class="form-group">
-                        <input class="btn btn-info" type="button" name="btnSubmit" class="btnContact" value="Send Message" />
+                        <input class="btn btn-info btnContact" type="button" name="btnSubmit" value="Send Message" />
                     </div>
                 </form>
             </div>
@@ -251,7 +249,7 @@
         <a href="#myPage" title="To Top">
             <span class="glyphicon glyphicon-chevron-up"></span>
         </a>
-        <p>© ABC Technologies Pvt Ltd. All Rights Reserved | Privacy Policy
+        <p>© Bittech Pvt Ltd. All Rights Reserved | Privacy Policy
             <a href="#" title="company"></a>
         </p>
     </footer>
