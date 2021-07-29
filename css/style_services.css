@@ -40,3 +40,15 @@
     }
 }
 
+.plus-expand{
+    width: 40px;
+    float: right;
+    color: #fff;
+    background-color: #6d1a5c;
+    padding: 5px 17px;
+}
+
+.collapse-sec label{
+    display: block;
+    margin-top: 5px;
+}

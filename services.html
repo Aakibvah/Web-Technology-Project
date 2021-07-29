@@ -56,16 +56,22 @@
             <h2>Our Services</h2>
             <div class="row">
                 <div class="col-md-4">
-                    <img src="images/services/1.webp" />
-                    <label for="collapse_checkbox1">Managed IT Services<a class="plus-expand"></a></label>
+                    <img src="images/services/1.webp" />                    
+                    <div class="collapse-sec">
+                        <label for="collapse_checkbox1">Managed IT Services<span class="plus-expand" onClick = "expandFun(this)">+</span></label>
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <img src="images/services/2.webp" />
-                    <label for="collapse_checkbox2">IT Procurement<span class="plus-expand">+</span></label>
+                    <div class="collapse-sec">
+                        <label for="collapse_checkbox2">IT Procurement<span class="plus-expand" onClick = "expandFun(this)">+</span></label>
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <img src="images/services/3.webp" />
-                    <label for="collapse_checkbox3">Data Center Services<span class="plus-expand">+</span></label>
+                    <div class="collapse-sec">
+                        <label for="collapse_checkbox3">Data Center Services<span class="plus-expand" onClick = "expandFun(this)">+</span></label>
+                    </div>
                 </div>
             </div>
 
@@ -170,15 +176,21 @@
             <div class="row">
                 <div class="col-md-4">
                     <img src="images/services/4.webp" />
-                    <label for="collapse_checkbox4">Voice and Video Collaboration<span class="plus-expand">+</span></label>
+                    <div class="collapse-sec">
+                        <label for="collapse_checkbox4">Voice and Video Collaboration<span class="plus-expand" onClick = "expandFun(this)">+</span></label>
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <img src="images/services/5.webp" />
-                    <label for="collapse_checkbox5">Wireless/ Mobilit<span class="plus-expand">+</span></label>
+                    <div class="collapse-sec">
+                        <label for="collapse_checkbox5">Wireless/ Mobility<span class="plus-expand" onClick = "expandFun(this)">+</span></label>
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <img src="images/services/6.webp" />
-                    <label for="collapse_checkbox6">Data Securit<span class="plus-expand">+</span></label>
+                    <div class="collapse-sec">
+                        <label for="collapse_checkbox6">Data Security<span class="plus-expand" onClick = "expandFun(this)">+</span></label>
+                    </div>
                 </div>
             </div>
 
@@ -300,5 +312,26 @@
     </footer>
 
 </body>
+<script>
+    function expandFun(ele) {
+        target_id = (ele.parentElement.getAttribute('for'));
+        if(ele.innerHTML == '+'){
+            servDescArr = document.getElementsByClassName('services-desc');
+            expandIconsArr = document.getElementsByClassName('plus-expand');
+            for(i = 0; i < servDescArr.length; i++){
+                servDescArr[i].style.display = 'none';
+                expandIconsArr[i].innerHTML = '+'
+                expandIconsArr[i].style.background = '#6d1a5c';
+            }
+            document.getElementById(target_id).nextElementSibling.style.display = 'block';
+            ele.innerHTML = '-'
+            ele.style.background = '#5c5c5c';
+        }else{
+            document.getElementById(target_id).nextElementSibling.style.display = 'none';
+            ele.innerHTML = '+'
+            ele.style.background = '#6d1a5c';
+        }   
+    }
+</script>
 
 </html>
