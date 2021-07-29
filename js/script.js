@@ -16,4 +16,7 @@ function expandFun(ele, pageClass) {
         ele.innerHTML = '+'
         ele.style.background = '#6d1a5c';
     }
+    if(pageClass == 'career-desc'){
+        document.getElementById(target_id).nextElementSibling.scrollIntoView(true);
+    }
 }

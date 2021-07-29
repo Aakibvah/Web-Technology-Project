@@ -509,6 +509,7 @@
        .career-desc{
             display: none;
             margin-bottom: 100px;
+            padding-top: 120px;
        }
 
        .careers{
@@ -524,3 +525,7 @@
                 display: none;
            }
        }
+
+        .career-image img{
+            max-width: 310px;
+        }
