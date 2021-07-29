@@ -58,138 +58,144 @@
                 <div class="col-md-4">
                     <img src="images/services/1.webp" />                    
                     <div class="collapse-sec">
-                        <label for="collapse_checkbox1">Managed IT Services<span class="plus-expand" onClick = "expandFun(this)">+</span></label>
+                        <label for="collapse_checkbox1">Managed IT Services<span class="plus-expand" onClick = "expandFun(this, 'services-desc')">+</span></label>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <img src="images/services/2.webp" />
                     <div class="collapse-sec">
-                        <label for="collapse_checkbox2">IT Procurement<span class="plus-expand" onClick = "expandFun(this)">+</span></label>
+                        <label for="collapse_checkbox2">IT Procurement<span class="plus-expand" onClick = "expandFun(this, 'services-desc')">+</span></label>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <img src="images/services/3.webp" />
                     <div class="collapse-sec">
-                        <label for="collapse_checkbox3">Data Center Services<span class="plus-expand" onClick = "expandFun(this)">+</span></label>
+                        <label for="collapse_checkbox3">Data Center Services<span class="plus-expand" onClick = "expandFun(this, 'services-desc')">+</span></label>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="full-width-wrap">
+                <input type="checkbox" id="collapse_checkbox1" style="display:none;">
+                <div id="managedIT" class="services-desc">
+                    <h3>Managed IT Services</h3>
+                    <p>Leave the IT service management up to our professionals to save on costs, get support you can trust and free up your time to focus on other work projects. The benefits of BitTech IT service management include:</p>
+                    <ul>
+                        <li>Improved reliability and security</li>
+                        <li>Clear visibility of your current technology</li>
+                        <li>Reduced IT operational costs</li>
+                        <li>A predictable cost model for a fully supported IT environment</li>
+                        <li>Access to a wide range of specialized engineers for a fixed monthly cost</li>
+                        <li>Proactive and reactive IT Support that prevents downtime</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mob-width-wrap">
+                <input type="checkbox" id="collapse_checkbox2" style="display:none;">
+                <div id="ITProc" class="services-desc">
+                    <h3>IT Procurement</h3>
+                    <p>When it comes to IT hardware, BitTech is truly your one-stop-shop. We have agreements with leading IT manufacturers to provide best-of-breed solutions unique to each customer’s needs and budget requirements. </p>
+                    <p>In addition to providing your computer hardware, we can configure, install and support everything we sell. This way, you get all the equipment and IT support services you need from one trustworthy source.</p>
+                </div>
+            </div>
+            <div class="full-width-wrap">
+                <input type="checkbox" id="collapse_checkbox3" style="display:none;">
+                <div id="DataSer" class="services-desc">
+                    <h3>Data Center Services</h3>
+                    <p>The data center is the engine that powers daily operations. It can create promising opportunities for success, or it can leave you open to failure. At BitTech, we help you design and build a world-class physical data center infrastructure
+                        from the ground up, maintain what you have, or transform your existing data center infrastructure. We help you get on the fast-track toward your data center transformation and optimization goals.</p>
+                    <b>Data Center Services include:</b>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h4>Servers</h4>
+                            <ul>
+                                <li>Utilization and performance assessments</li>
+                                <li>Consolidation and virtualization</li>
+                                <li>Blade server implementation</li>
+                                <li>Storage integration</li>
+                                <li>Virtual desktop infrastructures</li>
+                                <li>Multi-threat security solutions</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <h4>Applications</h4>
+                            <ul>
+                                <li>Enterprise-wide deployment and testing</li>
+                                <li>Visibility and management assessments</li>
+                                <li>Application acceleration and load balancing</li>
+                                <li>Platform migration and virtualization</li>
+                                <li>Public, private, and hybrid cloud solutions</li>
+                                <li>Performance auditing and tuning</li>
+                                <li>Secure client authentication</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <h4>Facilities</h4>
+                            <ul>
+                                <li>Power and cooling solutions</li>
+                                <li>Cable plants and premises wiring</li>
+                                <li>Site security and physical access control</li>
+                                <li>Fire detection and suppression systems</li>
+                                <li>Physical data center moves</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h4>Converged/Hyper-Converged</h4>
+                            <ul>
+                                <li>Infrastructure as a Service (IaaS): Utility type resources, such as: virtual machines, networking, and storage capacity.</li>
+                                <li>Platform as a Service (PaaS): Facilitate development environments using pooled and scalable resources.</li>
+                                <li>Software as a Service (SaaS): Deliver applications from third-party software providers over the internet.</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <h4>Virtualization</h4>
+                            <ul>
+                                <li>Enterprise-wide deployment and testing</li>
+                                <li>Visibility and management assessments</li>
+                                <li>Application acceleration and load balancing</li>
+                                <li>Platform migration and virtualization</li>
+                                <li>Public, private, and hybrid cloud solutions</li>
+                                <li>Performance auditing and tuning</li>
+                                <li>Secure client authentication</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <h4>Data Storage </h4>
+                            <ul>
+                                <li>Power and cooling solutions</li>
+                                <li>Cable plants and premises wiring</li>
+                                <li>Site security and physical access control</li>
+                                <li>Fire detection and suppression systems</li>
+                                <li>Physical data center moves</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <input type="checkbox" id="collapse_checkbox1" style="display:none;">
-            <div id="managedIT" class="services-desc">
-                <h3>Managed IT Services</h3>
-                <p>Leave the IT service management up to our professionals to save on costs, get support you can trust and free up your time to focus on other work projects. The benefits of BitTech IT service management include:</p>
-                <ul>
-                    <li>Improved reliability and security</li>
-                    <li>Clear visibility of your current technology</li>
-                    <li>Reduced IT operational costs</li>
-                    <li>A predictable cost model for a fully supported IT environment</li>
-                    <li>Access to a wide range of specialized engineers for a fixed monthly cost</li>
-                    <li>Proactive and reactive IT Support that prevents downtime</li>
-                </ul>
-            </div>
-
-            <input type="checkbox" id="collapse_checkbox2" style="display:none;">
-            <div id="ITProc" class="services-desc">
-                <h3>IT Procurement</h3>
-                <p>When it comes to IT hardware, BitTech is truly your one-stop-shop. We have agreements with leading IT manufacturers to provide best-of-breed solutions unique to each customer’s needs and budget requirements. </p>
-                <p>In addition to providing your computer hardware, we can configure, install and support everything we sell. This way, you get all the equipment and IT support services you need from one trustworthy source.</p>
-            </div>
-
-            <input type="checkbox" id="collapse_checkbox3" style="display:none;">
-            <div id="DataSer" class="services-desc">
-                <h3>Data Center Services</h3>
-                <p>The data center is the engine that powers daily operations. It can create promising opportunities for success, or it can leave you open to failure. At BitTech, we help you design and build a world-class physical data center infrastructure
-                    from the ground up, maintain what you have, or transform your existing data center infrastructure. We help you get on the fast-track toward your data center transformation and optimization goals.</p>
-                <b>Data Center Services include:</b>
-                <div class="row">
-                    <div class="col-md-4">
-                        <h4>Servers</h4>
-                        <ul>
-                            <li>Utilization and performance assessments</li>
-                            <li>Consolidation and virtualization</li>
-                            <li>Blade server implementation</li>
-                            <li>Storage integration</li>
-                            <li>Virtual desktop infrastructures</li>
-                            <li>Multi-threat security solutions</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4">
-                        <h4>Applications</h4>
-                        <ul>
-                            <li>Enterprise-wide deployment and testing</li>
-                            <li>Visibility and management assessments</li>
-                            <li>Application acceleration and load balancing</li>
-                            <li>Platform migration and virtualization</li>
-                            <li>Public, private, and hybrid cloud solutions</li>
-                            <li>Performance auditing and tuning</li>
-                            <li>Secure client authentication</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4">
-                        <h4>Facilities</h4>
-                        <ul>
-                            <li>Power and cooling solutions</li>
-                            <li>Cable plants and premises wiring</li>
-                            <li>Site security and physical access control</li>
-                            <li>Fire detection and suppression systems</li>
-                            <li>Physical data center moves</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-4">
-                        <h4>Converged/Hyper-Converged</h4>
-                        <ul>
-                            <li>Infrastructure as a Service (IaaS): Utility type resources, such as: virtual machines, networking, and storage capacity.</li>
-                            <li>Platform as a Service (PaaS): Facilitate development environments using pooled and scalable resources.</li>
-                            <li>Software as a Service (SaaS): Deliver applications from third-party software providers over the internet.</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4">
-                        <h4>Virtualization</h4>
-                        <ul>
-                            <li>Enterprise-wide deployment and testing</li>
-                            <li>Visibility and management assessments</li>
-                            <li>Application acceleration and load balancing</li>
-                            <li>Platform migration and virtualization</li>
-                            <li>Public, private, and hybrid cloud solutions</li>
-                            <li>Performance auditing and tuning</li>
-                            <li>Secure client authentication</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4">
-                        <h4>Data Storage </h4>
-                        <ul>
-                            <li>Power and cooling solutions</li>
-                            <li>Cable plants and premises wiring</li>
-                            <li>Site security and physical access control</li>
-                            <li>Fire detection and suppression systems</li>
-                            <li>Physical data center moves</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+            
 
 
             <div class="row">
                 <div class="col-md-4">
                     <img src="images/services/4.webp" />
                     <div class="collapse-sec">
-                        <label for="collapse_checkbox4">Voice and Video Collaboration<span class="plus-expand" onClick = "expandFun(this)">+</span></label>
+                        <label for="collapse_checkbox4">Voice and Video Collaboration<span class="plus-expand" onClick = "expandFun(this, 'services-desc')">+</span></label>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <img src="images/services/5.webp" />
                     <div class="collapse-sec">
-                        <label for="collapse_checkbox5">Wireless/ Mobility<span class="plus-expand" onClick = "expandFun(this)">+</span></label>
+                        <label for="collapse_checkbox5">Wireless/ Mobility<span class="plus-expand" onClick = "expandFun(this, 'services-desc')">+</span></label>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <img src="images/services/6.webp" />
                     <div class="collapse-sec">
-                        <label for="collapse_checkbox6">Data Security<span class="plus-expand" onClick = "expandFun(this)">+</span></label>
+                        <label for="collapse_checkbox6">Data Security<span class="plus-expand" onClick = "expandFun(this, 'services-desc')">+</span></label>
                     </div>
                 </div>
             </div>

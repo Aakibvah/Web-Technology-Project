@@ -1,7 +1,7 @@
-function expandFun(ele) {
+function expandFun(ele, pageClass) {
     target_id = (ele.parentElement.getAttribute('for'));
     if(ele.innerHTML == '+'){
-        servDescArr = document.getElementsByClassName('services-desc');
+        servDescArr = document.getElementsByClassName(pageClass);
         expandIconsArr = document.getElementsByClassName('plus-expand');
         for(i = 0; i < servDescArr.length; i++){
             servDescArr[i].style.display = 'none';
@@ -15,5 +15,5 @@ function expandFun(ele) {
         document.getElementById(target_id).nextElementSibling.style.display = 'none';
         ele.innerHTML = '+'
         ele.style.background = '#6d1a5c';
-    }   
+    }
 }

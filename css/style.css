@@ -505,3 +505,8 @@
            width: 100%;
            border: 0;
        }
+
+       .career-desc{
+        display: none;
+        margin-bottom: 100px;
+       }
