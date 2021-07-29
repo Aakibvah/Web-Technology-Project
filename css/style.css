@@ -507,6 +507,20 @@
        }
 
        .career-desc{
-        display: none;
-        margin-bottom: 100px;
+            display: none;
+            margin-bottom: 100px;
+       }
+
+       .careers{
+            float: none;
+       }
+
+       .careers span{
+            margin-left: 10px;
+       }
+
+       @media (max-width: 991px) {
+           .services-wrap img{
+                display: none;
+           }
        }

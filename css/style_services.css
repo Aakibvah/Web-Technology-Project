@@ -41,11 +41,12 @@
 }
 
 .plus-expand{
-    width: 40px;
     float: right;
     color: #fff;
     background-color: #6d1a5c;
-    padding: 5px 17px;
+    padding: 1px 10px;
+    width: 30px;
+    text-align: center;
 }
 
 .collapse-sec label{
