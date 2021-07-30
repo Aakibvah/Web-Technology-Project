@@ -19,7 +19,7 @@
             <input type="checkbox" id="nav-check">
             <div class="nav-header">
                 <div class="nav-title">
-                    <a href="index.html"><img src="images/logo.png" /></a>
+                    <a href="index.html"><img src="images/logo.png" alt="Company logo" /></a>
                 </div>
             </div>
             <div class="nav-001">
@@ -38,39 +38,33 @@
             </div>
         </nav>
     </header>
-    <!-- header end -->
-
-    <!-- <div class="jumbotron text-center">
-  <img src="images/logo.png"/>
-  <p>We are a software product and services company.</p> 
-</div> -->
 
     <!-- services listing and description -->
     <main class="main-wrap">
         <div class="container services-wrap">
-            <h2>Our Services</h2>
+            <h2 class="sec-title">Our Services</h2>
             <div class="row">
                 <div class="col-md-4">
-                    <img src="images/services/1.webp" />                    
+                    <img src="images/services/1.webp" alt="IT Services" />
                     <div class="collapse-sec">
                         <label for="collapse_checkbox1">Managed IT Services<span class="plus-expand" onClick = "expandFun(this, 'services-desc')">+</span></label>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <img src="images/services/2.webp" />
+                    <img src="images/services/2.webp" alt="Procurement" />
                     <div class="collapse-sec">
                         <label for="collapse_checkbox2">IT Procurement<span class="plus-expand" onClick = "expandFun(this, 'services-desc')">+</span></label>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <img src="images/services/3.webp" />
+                    <img src="images/services/3.webp" alt="Data Center" />
                     <div class="collapse-sec">
                         <label for="collapse_checkbox3">Data Center Services<span class="plus-expand" onClick = "expandFun(this, 'services-desc')">+</span></label>
                     </div>
                 </div>
-                
+
             </div>
-            
+
             <div class="full-width-wrap">
                 <input type="checkbox" id="collapse_checkbox1" style="display:none;">
                 <div id="managedIT" class="services-desc">
@@ -171,26 +165,24 @@
                     </div>
                 </div>
             </div>
-            
-
 
             <div class="row">
                 <div class="col-md-4">
-                    <img src="images/services/4.webp" />
+                    <img src="images/services/4.webp" alt="Voice and video" />
                     <div class="collapse-sec">
                         <label for="collapse_checkbox4">Voice and Video Collaboration<span class="plus-expand" onClick = "expandFun(this, 'services-desc')">+</span></label>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <img src="images/services/5.webp" />
+                    <img src="images/services/5.webp" alt="Wireless" />
                     <div class="collapse-sec">
                         <label for="collapse_checkbox5">Wireless/ Mobility<span class="plus-expand" onClick = "expandFun(this, 'services-desc')">+</span></label>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <img src="images/services/6.webp" />
-                    <div class="collapse-sec">
-                        <label for="collapse_checkbox6">Data Security<span class="plus-expand" onClick = "expandFun(this, 'services-desc')">+</span></label>
+                    <img src="images/services/6.webp" alt="Data Security" />
+                    <div class=" collapse-sec">
+                        <label for="collapse_checkbox6">Data Security<span class="plus-expand " onClick = "expandFun(this, 'services-desc') ">+</span></label>
                     </div>
                 </div>
             </div>
@@ -259,60 +251,57 @@
         </div>
     </main>
 
-
     <div id="contact" class="container-fluid bg-grey contact-form">
-        <div class="">
-            <h2 class="text-center">CONTACT US</h2>
+        <div>
+            <h2 class="sec-title text-center">CONTACT US</h2>
         </div>
-        <h3>Drop Us a Message</h3>
+        <h3>Drop us a message</h3>
         <div class="row">
             <div class="col-sm-5">
                 <div>
                     <p>Contact us and we'll get back to you within 24 hours.</p>
-                    <p><span class="glyphicon glyphicon-map-marker address-icons"></span> Ontario, CA</p>
-                    <p><span class="glyphicon glyphicon-phone address-icons"></span> +00 1515151515</p>
-                    <p><span class="glyphicon glyphicon-envelope address-icons"></span>customercare@abctech.com</p>
+                    <p><span class="glyphicon glyphicon-map-marker address-icons "></span> Bit Tower, Wellington St, Old Toronto, Ontario, CA</p>
+                    <p><span class="glyphicon glyphicon-phone address-icons "></span>+1 (437) 961-8097</p>
+                    <p><span class="glyphicon glyphicon-envelope address-icons "></span>contact@bittech.com</p>
                 </div>
                 <p>Follow us on Social Media</p>
                 <div id="social-container">
-                    <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
-                    <a href="https://ca.linkedin.com/"><i class="fa fa-linkedin"></i></a>
-                    <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/ "><i class="fa fa-instagram "></i></a>
+                    <a href="https://ca.linkedin.com/ "><i class="fa fa-linkedin "></i></a>
+                    <a href="https://twitter.com/ "><i class="fa fa-twitter "></i></a>
+                    <a href="https://facebook.com/ "><i class="fa fa-facebook "></i></a>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 ">
                 <form method="post">
                     <div class="form-group">
-                        <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                        <input type="text" name="txtName" class="form-control" placeholder="Your Name * " value=" " />
                     </div>
                     <div class="form-group">
-                        <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                        <input type="email" name="txtEmail" class="form-control" placeholder="Your Email * " value=" " />
                     </div>
                     <div class="form-group">
-                        <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                        <input type="tel" name="txtPhone" class="form-control" placeholder="Your Phone Number * " value=" " />
                     </div>
                     <div class="form-group">
-                        <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                        <textarea name="txtMsg" class="form-control" placeholder="Your Message * " style="width: 100%; height: 150px;"></textarea>
                     </div>
                     <div class="form-group">
-                        <input class="btn btn-info" type="button" name="btnSubmit" class="btnContact" value="Send Message" />
+                        <input class="btn btn-info btnContact" type="button" name="btnSubmit" value="Send Message" />
                     </div>
                 </form>
             </div>
         </div>
     </div>
 
-
     <footer class="container-fluid text-center">
-        <a href="#myPage" title="To Top">
+        <a href="#myPage" title="To Top ">
             <span class="glyphicon glyphicon-chevron-up"></span>
         </a>
-        <p>© ABC Technologies Pvt Ltd. All Rights Reserved | Privacy Policy
-            <a href="#" title="company"></a>
-        </p>
+        <p>© Bit Tech Pvt Ltd. All Rights Reserved | Privacy Policy</p>
     </footer>
-
+    <script src="js/script.js"></script>
 </body>
-<script src="js/script.js" type="text/javascript"></script>
+
 
 </html>

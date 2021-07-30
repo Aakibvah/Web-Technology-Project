@@ -30,7 +30,7 @@
        }
        
        .container-fluid {
-           padding: 60px 50px;
+           padding: 30px 50px;
        }
        
        .bg-grey {
@@ -437,6 +437,7 @@
        .sec-title {
            color: #4d42c2;
            text-transform: uppercase;
+           font-size: 30px;
        }
        
        #home-banner img {
@@ -491,27 +492,27 @@
            width: 100%;
            border: 0;
        }
-
-       .career-desc{
-            display: none;
-            margin-bottom: 100px;
-            padding-top: 120px;
+       
+       .career-desc {
+           display: none;
+           margin-bottom: 100px;
+           padding-top: 120px;
        }
-
-       .careers{
-            float: none;
+       
+       .careers {
+           float: none;
        }
-
-       .careers span{
-            margin-left: 10px;
+       
+       .careers span {
+           margin-left: 10px;
        }
-
+       
        @media (max-width: 991px) {
-           .services-wrap img{
-                display: none;
+           .services-wrap img {
+               display: none;
            }
        }
-
-        .career-image img{
-            max-width: 310px;
-        }
+       
+       .career-image img {
+           max-width: 310px;
+       }
