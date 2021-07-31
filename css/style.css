@@ -540,6 +540,12 @@ section#counter-stats {
     padding-top: 120px;
 }
 
+@media (max-width: 768px) {
+    .career-desc {
+        padding-top: 80px;
+    }
+}
+
 .careers {
     float: none;
 }
