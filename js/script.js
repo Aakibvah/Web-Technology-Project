@@ -1,3 +1,4 @@
+// Script to expand and collapse the [+] contents to views the more details in services and careers page // 
 function expandFun(ele, pageClass) {
     target_id = (ele.parentElement.getAttribute('for'));
     if (ele.innerHTML == '+') {
