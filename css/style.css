@@ -554,6 +554,10 @@ section#counter-stats {
     }
 }
 
-.career-image img {
+.career-banner-image img {
     max-width: 310px;
+}
+
+.career-image img {
+    max-width: 100%;
 }
