@@ -1,507 +1,569 @@
-       /* jj */
-       
-       body {
-           font: 400 15px Lato, sans-serif;
-           line-height: 1.8;
-           color: #818181;
-       }
-       
-       h2 {
-           font-size: 24px;
-           text-transform: uppercase;
-           color: #303030;
-           font-weight: 600;
-           margin-bottom: 30px;
-       }
-       
-       h4 {
-           font-size: 19px;
-           line-height: 1.375em;
-           color: #303030;
-           font-weight: 400;
-           margin-bottom: 30px;
-       }
-       
-       .jumbotron {
-           background-image: url("../images/header/banner-bg-03.jpg");
-           color: #fff;
-           padding: 100px 25px 60px 25px;
-           font-family: Montserrat, sans-serif;
-       }
-       
-       .container-fluid {
-           padding: 60px 50px;
-       }
-       
-       .bg-grey {
-           background-color: #f6f6f6;
-       }
-       
-       .logo-small {
-           color: #f4511e;
-           font-size: 50px;
-       }
-       
-       .logo {
-           color: #f4511e;
-           font-size: 200px;
-       }
-       
-       .thumbnail {
-           padding: 0 0 15px 0;
-           border: none;
-           border-radius: 0;
-       }
-       
-       .thumbnail img {
-           width: 100%;
-           height: 100%;
-           margin-bottom: 10px;
-       }
-       
-       .carousel-control.right,
-       .carousel-control.left {
-           background-image: none;
-           color: #f4511e;
-       }
-       
-       .carousel-indicators li {
-           border-color: #f4511e;
-       }
-       
-       .carousel-indicators li.active {
-           background-color: #f4511e;
-       }
-       
-       .item h4 {
-           font-size: 19px;
-           line-height: 1.375em;
-           font-weight: 400;
-           font-style: italic;
-           margin: 70px 0;
-       }
-       
-       .item span {
-           font-style: normal;
-       }
-       
-       footer .glyphicon {
-           font-size: 20px;
-           margin-bottom: 20px;
-           color: #3e3e3e;
-       }
-       
-       .slideanim {
-           visibility: hidden;
-       }
-       
-       .slide {
-           animation-name: slide;
-           -webkit-animation-name: slide;
-           animation-duration: 1s;
-           -webkit-animation-duration: 1s;
-           visibility: visible;
-       }
-       /* slide up aninmation in key features */
-       
-       @keyframes slide {
-           0% {
-               opacity: 0;
-               transform: translateY(70%);
-           }
-           100% {
-               opacity: 1;
-               transform: translateY(0%);
-           }
-       }
-       
-       @-webkit-keyframes slide {
-           0% {
-               opacity: 0;
-               -webkit-transform: translateY(70%);
-           }
-           100% {
-               opacity: 1;
-               -webkit-transform: translateY(0%);
-           }
-       }
-       
-       @media screen and (max-width: 768px) {
-           .col-sm-4 {
-               text-align: center;
-               margin: 25px 0;
-           }
-           .btn-lg {
-               width: 100%;
-               margin-bottom: 35px;
-           }
-       }
-       
-       @media screen and (max-width: 480px) {
-           .logo {
-               font-size: 150px;
-           }
-       }
-       
-       .nav {
-           position: fixed;
-           height: 78px;
-           width: 100%;
-           background-color: #463bbb;
-           z-index: 1000;
-       }
-       
-       .nav img {
-           width: 170px;
-       }
-       
-       .nav>.nav-header {
-           display: inline;
-       }
-       
-       .nav-title>a {
-           text-decoration: none;
-       }
-       
-       .nav>.nav-header>.nav-title {
-           display: inline-block;
-           font-size: 22px;
-           color: #fff;
-           padding: 7px 10px 10px 10px;
-           margin-left: 30px;
-       }
-       
-       .nav>.nav-header>.nav-title a {
-           color: #fff;
-       }
-       
-       .nav>.nav-001 {
-           display: none;
-       }
-       
-       .nav>.nav-links {
-           display: inline;
-           float: right;
-           font-size: 18px;
-           margin-right: 30px;
-       }
-       
-       .nav>.nav-links>a {
-           display: inline-block;
-           padding: 24px 17px 22px 16px;
-           text-decoration: none;
-           color: #ffffff;
-       }
-       
-       .nav>.nav-links>a:hover {
-           color: #333;
-           background-color: #fff !important;
-       }
-       
-       .nav>#nav-check {
-           display: none;
-       }
-       
-       @media (max-width: 900px) {
-           .nav>.nav-001 {
-               display: inline-block;
-               position: absolute;
-               right: 28px;
-               top: 9px;
-           }
-           .nav>.nav-001>label {
-               display: inline-block;
-               width: 50px;
-               height: 50px;
-               padding: 18px;
-               cursor: pointer;
-           }
-           .nav>.nav-001>label>span {
-               display: block;
-               width: 25px;
-               height: 10px;
-               border-top: 2px solid #eee;
-           }
-           .nav>.nav-links {
-               position: absolute;
-               display: block;
-               width: 100%;
-               background-color: #463bbb;
-               height: 0px;
-               overflow-y: hidden;
-               left: -1px;
-               top: 77px;
-               opacity: .95;
-           }
-           .nav>.nav-links>a {
-               display: block;
-               width: 100%;
-           }
-           .nav>#nav-check:checked~.nav-links {
-               height: 100vh;
-               overflow-y: auto;
-               transition: width 0.8s ease-in-out, height 0.8s ease-in-out;
-           }
-       }
-       
-       .icon {
-           padding: 10px;
-           text-align: center;
-       }
-       
-       .card-body {
-           padding: 20px;
-       }
-       /* jj */
-       
-       #social-container i {
-           padding: 5px 15px 5px 5px;
-           font-size: 14px;
-       }
-       
-       #social-container a {
-           color: #818181;
-       }
-       
-       #social-container a:hover {
-           color: #337ab7;
-       }
-       
-       .address-icons {
-           padding: 5px;
-       }
-       /* Style overwrite the bootstrap btn-info to change color */
-       
-       .btn-info {
-           background-color: #4d42c2 !important;
-           border-color: #4d42c2 !important;
-       }
-       /* Styles for our team */
-       
-       #team {
-           background: #eee !important;
-       }
-       
-       .btn-primary:hover,
-       .btn-primary:focus {
-           background-color: #108d6f;
-           border-color: #108d6f;
-           box-shadow: none;
-           outline: none;
-       }
-       
-       .btn-primary {
-           color: #fff;
-           background-color: #4d42c2;
-           border-color: #4d42c2;
-       }
-       
-       section {
-           padding: 84px 0;
-       }
-       
-       section .section-title {
-           text-align: center;
-           color: #4d42c2;
-           margin-bottom: 50px;
-           text-transform: uppercase;
-       }
-       
-       #team .card {
-           border: none;
-           background: #ffffff;
-       }
-       
-       .image-flip:hover .backside,
-       .image-flip.hover .backside {
-           -webkit-transform: rotateY(0deg);
-           -moz-transform: rotateY(0deg);
-           -o-transform: rotateY(0deg);
-           -ms-transform: rotateY(0deg);
-           transform: rotateY(0deg);
-           border-radius: .25rem;
-       }
-       
-       .image-flip:hover .frontside,
-       .image-flip.hover .frontside {
-           -webkit-transform: rotateY(180deg);
-           -moz-transform: rotateY(180deg);
-           -o-transform: rotateY(180deg);
-           transform: rotateY(180deg);
-       }
-       
-       .mainflip {
-           -webkit-transition: 1s;
-           -webkit-transform-style: preserve-3d;
-           -ms-transition: 1s;
-           -moz-transition: 1s;
-           -moz-transform: perspective(1000px);
-           -moz-transform-style: preserve-3d;
-           -ms-transform-style: preserve-3d;
-           transition: 1s;
-           transform-style: preserve-3d;
-           position: relative;
-       }
-       
-       .frontside {
-           position: relative;
-           -webkit-transform: rotateY(0deg);
-           -ms-transform: rotateY(0deg);
-           z-index: 2;
-           margin-bottom: 30px;
-       }
-       
-       .backside {
-           position: absolute;
-           top: 0;
-           left: 0;
-           background: white;
-           -webkit-transform: rotateY(-180deg);
-           -moz-transform: rotateY(-180deg);
-           -o-transform: rotateY(-180deg);
-           -ms-transform: rotateY(-180deg);
-           transform: rotateY(-180deg);
-           -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
-           -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
-           box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
-       }
-       
-       .frontside,
-       .backside {
-           -webkit-backface-visibility: hidden;
-           -moz-backface-visibility: hidden;
-           -ms-backface-visibility: hidden;
-           backface-visibility: hidden;
-           -webkit-transition: 1s;
-           -webkit-transform-style: preserve-3d;
-           -moz-transition: 1s;
-           -moz-transform-style: preserve-3d;
-           -o-transition: 1s;
-           -o-transform-style: preserve-3d;
-           -ms-transition: 1s;
-           -ms-transform-style: preserve-3d;
-           transition: 1s;
-           transform-style: preserve-3d;
-       }
-       
-       .frontside .card,
-       .backside .card {
-           min-height: 312px;
-       }
-       
-       .backside .card a {
-           font-size: 18px;
-           color: #4d42c2 !important;
-       }
-       
-       .frontside .card .card-title,
-       .backside .card .card-title {
-           color: #4d42c2 !important;
-       }
-       
-       .frontside .card .card-body img {
-           width: 120px;
-           height: 120px;
-           border-radius: 50%;
-       }
-       
-       .JourneyStarted {
-           padding-right: 47px;
-           font-size: 41px;
-           font-weight: 800;
-           font-stretch: normal;
-           font-style: normal;
-           line-height: 1.22;
-           letter-spacing: 0.23px;
-           color: #3a44a1;
-       }
-       
-       .together {
-           opacity: 0.6;
-           font-size: 20px;
-           font-weight: 500;
-           font-stretch: normal;
-           font-style: normal;
-           line-height: 1.8;
-           letter-spacing: 0.94px;
-           color: #000000;
-       }
-       
-       .workBIT-Title {
-           font-size: 18px;
-           font-weight: 600;
-           font-stretch: normal;
-           font-style: normal;
-           line-height: 1.56;
-           letter-spacing: 1px;
-           color: #000000;
-       }
-       
-       .workBIT-Text {
-           opacity: 0.8;
-           font-size: 14px;
-           font-weight: 500;
-           font-stretch: normal;
-           font-style: normal;
-           line-height: 1.43;
-           letter-spacing: 0.6px;
-           color: #000000;
-       }
-       
-       .sec-title {
-           color: #4d42c2;
-           text-transform: uppercase;
-       }
-       
-       #home-banner img {
-           width: 40%;
-       }
-       
-       @media (max-width: 768px) {
-           #home-banner img {
-               width: 71%;
-           }
-       }
-       
-       .main-wrap {
-           padding-top: 10%;
-       }
-       
-       @media (max-width: 768px) {
-           .main-wrap {
-               padding-top: 25%;
-           }
-       }
-       
-        :checked+.services-desc {
-           display: block;
-       }
-       
-       .plus-expand:active {
-           transform: rotate(180deg);
-       }
-       /*statistics */
-       
-       section#counter-stats {
-           display: flex;
-           justify-content: center;
-           margin-top: 100px;
-       }
-       
-       .stats {
-           text-align: center;
-           font-size: 35px;
-           font-weight: 700;
-       }
-       
-       .stats .fa {
-           color: #3a44a1;
-           font-size: 60px;
-       }
-       /*statistics */
-       
-       .mapFrame {
-           height: 100%;
-           width: 100%;
-           border: 0;
-       }
+/* Common styles sheet for all the pages */
+
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+}
+
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.jumbotron {
+    background-image: url("../images/header/banner-bg-03.jpg");
+    color: #fff;
+    padding: 100px 25px 60px 25px;
+    font-family: Montserrat, sans-serif;
+}
+
+.container-fluid {
+    padding: 30px 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .container-fluid {
+        padding: 10px 20px;
+    }
+}
+
+.bg-grey {
+    background-color: #f6f6f6;
+}
+
+.logo-small {
+    color: #f4511e;
+    font-size: 50px;
+}
+
+.logo {
+    color: #f4511e;
+    font-size: 200px;
+}
+
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+}
+
+.item span {
+    font-style: normal;
+}
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #3e3e3e;
+}
+
+.sec-title {
+    color: #4d42c2;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+
+/* slide up aninmation in key features index page */
+
+.slideanim {
+    visibility: hidden;
+}
+
+.slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .logo {
+        font-size: 150px;
+    }
+}
+
+
+/* header top navbar styles  */
+
+.nav {
+    position: fixed;
+    height: 78px;
+    width: 100%;
+    background-color: #463bbb;
+    z-index: 1000;
+}
+
+.nav img {
+    width: 170px;
+}
+
+.nav>.nav-header {
+    display: inline;
+}
+
+.nav-title>a {
+    text-decoration: none;
+}
+
+.nav>.nav-header>.nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: #fff;
+    padding: 7px 10px 10px 10px;
+    margin-left: 30px;
+}
+
+.nav>.nav-header>.nav-title a {
+    color: #fff;
+}
+
+.nav>.nav-001 {
+    display: none;
+}
+
+.nav>.nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+    margin-right: 30px;
+}
+
+.nav>.nav-links>a {
+    display: inline-block;
+    padding: 24px 17px 22px 16px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav>.nav-links>a:hover {
+    color: #333;
+    background-color: #fff !important;
+}
+
+.nav>#nav-check {
+    display: none;
+}
+
+
+/* header top navbar responsive styles  */
+
+@media (max-width: 768px) {
+    .nav>.nav-header>.nav-title {
+        display: inline-block;
+        font-size: 22px;
+        color: #fff;
+        padding: 7px 10px 10px 10px;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 900px) {
+    .nav>.nav-001 {
+        display: inline-block;
+        position: absolute;
+        right: 28px;
+        top: 9px;
+    }
+    .nav>.nav-001>label {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        padding: 18px;
+        cursor: pointer;
+    }
+    .nav>.nav-001>label>span {
+        display: block;
+        width: 25px;
+        height: 10px;
+        border-top: 2px solid #eee;
+    }
+    .nav>.nav-links {
+        position: absolute;
+        display: block;
+        width: 100%;
+        background-color: #463bbb;
+        height: 0px;
+        overflow-y: hidden;
+        left: -1px;
+        top: 77px;
+        opacity: .95;
+    }
+    .nav>.nav-links>a {
+        display: block;
+        width: 100%;
+    }
+    .nav>#nav-check:checked~.nav-links {
+        height: 100vh;
+        overflow-y: auto;
+        transition: width 0.8s ease-in-out, height 0.8s ease-in-out;
+    }
+    .hide-md {
+        display: none !important;
+    }
+}
+
+.icon {
+    padding: 10px;
+    text-align: center;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+#social-container i {
+    padding: 5px 15px 5px 5px;
+    font-size: 14px;
+}
+
+#social-container a {
+    color: #818181;
+}
+
+#social-container a:hover {
+    color: #337ab7;
+}
+
+.address-icons {
+    padding: 5px;
+}
+
+
+/* Style overwrite the bootstrap btn-info to change color */
+
+.btn-info {
+    background-color: #4d42c2 !important;
+    border-color: #4d42c2 !important;
+}
+
+
+/* Styles for our team in about as page */
+
+#team {
+    background: #eee !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #108d6f;
+    border-color: #108d6f;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #4d42c2;
+    border-color: #4d42c2;
+}
+
+section {
+    padding: 84px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #4d42c2;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#team .card {
+    border: none;
+    background: #ffffff;
+}
+
+
+/* styles for flip animation in the about us page */
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 312px;
+}
+
+.backside .card a {
+    font-size: 18px;
+    color: #4d42c2 !important;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: #4d42c2 !important;
+}
+
+.frontside .card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+
+/* styles for work at bittech in about us page */
+
+.JourneyStarted {
+    font-size: 41px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: 0.23px;
+    color: #3a44a1;
+}
+
+.together {
+    opacity: 0.6;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.8;
+    letter-spacing: 0.94px;
+    color: #000000;
+}
+
+.workBIT-Title {
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+.workBIT-Text {
+    opacity: 0.8;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: 0.6px;
+    color: #000000;
+}
+
+#home-banner img {
+    width: 40%;
+}
+
+@media (max-width: 768px) {
+    #home-banner img {
+        width: 71%;
+    }
+}
+
+.main-wrap {
+    padding-top: 10%;
+}
+
+@media (max-width: 768px) {
+    .main-wrap {
+        padding-top: 25%;
+    }
+}
+
+ :checked+.services-desc {
+    display: block;
+}
+
+.plus-expand:active {
+    transform: rotate(180deg);
+}
+
+
+/*Our statistics styles*/
+
+section#counter-stats {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.stats {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.stats .fa {
+    color: #3a44a1;
+    font-size: 60px;
+}
+
+
+/*Map in contact us*/
+
+.mapFrame {
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
+
+
+/* Styles for careers description */
+
+.career-desc {
+    display: none;
+    margin-bottom: 100px;
+    padding-top: 120px;
+}
+
+@media (max-width: 768px) {
+    .career-desc {
+        padding-top: 80px;
+    }
+}
+
+.careers {
+    float: none;
+}
+
+.careers span {
+    margin-left: 10px;
+}
+
+@media (max-width: 991px) {
+    .services-wrap img {
+        display: none;
+    }
+}
+
+.career-banner-image img {
+    max-width: 310px;
+}
+
+.career-image img {
+    max-width: 100%;
+}
