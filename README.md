@@ -1,6 +1,8 @@
-# company website
+CSAT Program
+CSD 1113 - Term Project
 
-#Web project-group members
+Information technology and service company website
+Web project- group members
 
 Anees Bhikhubhai Motani- C0814069
 
@@ -13,6 +15,6 @@ Rakesh Nalla- C0822272
 Subin Kuruvilla- C0815805
 
 
-CSAT Program
+
 
 
